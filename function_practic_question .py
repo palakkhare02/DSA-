@@ -26,4 +26,20 @@ def area_of_rectangle(length, breadth):
     # Your code here
     area =length*breadth
     return area
+
+
+def calculate_distance(speed, time):
+    """
+    Function to calculate the distance traveled by a vehicle.
+    
+    Parameters:
+    speed (float): The speed of the vehicle.
+    time (float): The time the vehicle has traveled.
+    
+    Returns:
+    float: The distance traveled by the vehicle.
+    """
+    # Your code here
+    Distance=speed*time
+    return Distance
     
